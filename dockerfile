@@ -1,4 +1,4 @@
-FROM eclipse-temurin:latest
+FROM eclipse-temurin:17
 RUN apt-get update && apt-get install git -y
 RUN git clone https://github.com/spring-projects/spring-petclinic.git
 WORKDIR /spring-petclinic
